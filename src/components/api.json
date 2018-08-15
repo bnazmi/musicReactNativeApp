@@ -1,0 +1,108 @@
+ {
+     "resultCount": 1,
+     "results": [{
+         "wrapperType": "track",
+         "kind": "song",
+         "artistId": 14604453,
+         "collectionId": 612251872,
+         "trackId": 612251875,
+         "artistName": "Asala Nasri",
+         "collectionName": "Nos Hala (Half Situation)",
+         "trackName": "Wala Dary",
+         "collectionCensoredName": "Nos Hala (Half Situation)",
+         "trackCensoredName": "Wala Dary",
+         "artistViewUrl": "https://itunes.apple.com/us/artist/asala-nasri/14604453?uo=4",
+         "collectionViewUrl": "https://itunes.apple.com/us/album/wala-dary/612251872?i=612251875&uo=4",
+         "trackViewUrl": "https://itunes.apple.com/us/album/wala-dary/612251872?i=612251875&uo=4",
+         "previewUrl": "https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/Music/v4/30/22/fc/3022fc44-03f8-3995-d0e7-c35bf75bdd29/mzaf_7735895184488962223.plus.aac.p.m4a",
+         "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/86/93/c2/8693c211-141a-ca8a-3065-38653802273b/source/30x30bb.jpg",
+         "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/86/93/c2/8693c211-141a-ca8a-3065-38653802273b/source/60x60bb.jpg",
+         "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/86/93/c2/8693c211-141a-ca8a-3065-38653802273b/source/100x100bb.jpg",
+         "collectionPrice": 7.92,
+         "trackPrice": 0.99,
+         "releaseDate": "2008-09-27T07:00:00Z",
+         "collectionExplicitness": "notExplicit",
+         "trackExplicitness": "notExplicit",
+         "discCount": 1,
+         "discNumber": 1,
+         "trackCount": 8,
+         "trackNumber": 1,
+         "trackTimeMillis": 206453,
+         "country": "USA",
+         "currency": "USD",
+         "primaryGenreName": "World",
+         "isStreamable": true
+     }]
+ }
+
+ /* 
+ https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?term=wala%20dary&limit=1
+ **/
+
+
+ {
+     results: {
+         opensearch: Query: {#
+             text: "",
+             role: "request",
+             startPage: "1"
+         },
+         opensearch: totalResults: "6335",
+         opensearch: startIndex: "0",
+         opensearch: itemsPerPage: "2",
+         trackmatches: {
+             track: [{
+                     name: "Wala Dary",
+                     artist: "Asala",
+                     url: "https://www.last.fm/music/Asala/_/Wala+Dary",
+                     streamable: "FIXME",
+                     listeners: "6554",
+                     image: [{#
+                             text: "https://lastfm-img2.akamaized.net/i/u/34s/1eb2a97c65ab432b85d3b3eb025aca6f.png",
+                             size: "small"
+                         },
+                         {#
+                             text: "https://lastfm-img2.akamaized.net/i/u/64s/1eb2a97c65ab432b85d3b3eb025aca6f.png",
+                             size: "medium"
+                         },
+                         {#
+                             text: "https://lastfm-img2.akamaized.net/i/u/174s/1eb2a97c65ab432b85d3b3eb025aca6f.png",
+                             size: "large"
+                         },
+                         {#
+                             text: "https://lastfm-img2.akamaized.net/i/u/300x300/1eb2a97c65ab432b85d3b3eb025aca6f.png",
+                             size: "extralarge"
+                         }
+                     ],
+                     mbid: ""
+                 },
+                 {
+                     name: "Yesmaholy El Kol",
+                     artist: "Asala",
+                     url: "https://www.last.fm/music/Asala/_/Yesmaholy+El+Kol",
+                     streamable: "FIXME",
+                     listeners: "5221",
+                     image: [{#
+                             text: "https://lastfm-img2.akamaized.net/i/u/34s/1eb2a97c65ab432b85d3b3eb025aca6f.png",
+                             size: "small"
+                         },
+                         {#
+                             text: "https://lastfm-img2.akamaized.net/i/u/64s/1eb2a97c65ab432b85d3b3eb025aca6f.png",
+                             size: "medium"
+                         },
+                         {#
+                             text: "https://lastfm-img2.akamaized.net/i/u/174s/1eb2a97c65ab432b85d3b3eb025aca6f.png",
+                             size: "large"
+                         },
+                         {#
+                             text: "https://lastfm-img2.akamaized.net/i/u/300x300/1eb2a97c65ab432b85d3b3eb025aca6f.png",
+                             size: "extralarge"
+                         }
+                     ],
+                     mbid: ""
+                 }
+             ]
+         },
+         @attr: {}
+     }
+ }

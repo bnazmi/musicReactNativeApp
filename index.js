@@ -1,23 +1,19 @@
 // /** @format */
-
-// import { AppRegistry } from 'react-native';
-// import App from './App';
-// import { name as appName } from './app.json';
-
-
-// AppRegistry.registerComponent(appName, () => App);
-
 // Import libary
 import React from 'react';
-import { AppRegistry } from 'react-native';
+import { AppRegistry, View } from 'react-native';
 import { name as appName, displayName as headerAppName } from './app.json';
-import Header from './src/components/header';
+import Header from './src/components/Header';
+import AlbumList from './src/components/AlbumList';
 
 // Create component 
 
 const App = () => 
     (
-        <Header headerText={headerAppName} />
+        <View>
+            <Header headerText={headerAppName} />
+            <AlbumList />
+        </View>
  
     );
 
